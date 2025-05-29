@@ -3,6 +3,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+st.set_page_config(page_title="Ingresos Mensuales", layout="wide")
+
 # Datos
 meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun',
          'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
@@ -32,7 +34,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.set_page_config(page_title="Ingresos Mensuales", layout="wide")
+
 st.title("📊 Visualización de Ingresos Mensuales")
 
 st.subheader("📋 Tabla de Ingresos")
